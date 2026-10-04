@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { DataPage } from "@/components/factory/generic-page";
+export const Route=createFileRoute("/data")({head:()=>({meta:[{title:"Operational Data — FactoryPulse"},{name:"description",content:"Plant data-source health and CSV validation."},{property:"og:title",content:"Operational Data — FactoryPulse"},{property:"og:description",content:"Plant data-source health and CSV validation."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:DataPage});

@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { InvestigationsPage } from "@/components/factory/generic-page";
+export const Route=createFileRoute("/investigations")({head:()=>({meta:[{title:"Investigation Queue — FactoryPulse"},{name:"description",content:"Operational deviations ranked for review at Plant A."},{property:"og:title",content:"Investigation Queue — FactoryPulse"},{property:"og:description",content:"Operational deviations ranked for review at Plant A."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:InvestigationsPage});
