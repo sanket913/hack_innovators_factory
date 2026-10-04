@@ -1,0 +1,6 @@
+- [x] Restore the uploaded FactoryPulse pages and preserve their demo interactions.
+- [x] Apply the selected industrial visual system across every page.
+- [x] Add a distinctive, scroll-animated homepage with clear paths into the product.
+- [x] Verify desktop and mobile pages and navigation.
+- [ ] Separate the public landing page from the operations dashboard shell.
+- [ ] Give the landing page one clear dashboard entry and verify both experiences.
